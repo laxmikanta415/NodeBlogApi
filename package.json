@@ -1,0 +1,21 @@
+{
+  "name": "node_blog_api",
+  "version": "1.0.0",
+  "description": "Node API for blog",
+  "main": "index.js",
+  "repository": "git@github.com:laxmikanta415/NodeBlogApi.git",
+  "author": "Laxmikanta Nayak <laxmikantanayak415@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "d": "yarn webpack"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-cli": "^0.0.1",
+    "start-server-webpack-plugin": "^2.2.1",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
